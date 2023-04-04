@@ -5,9 +5,9 @@ export const styles = StyleSheet.create({
         width: 50,
         height: 50,
         borderRadius: 50,
-        backgroundColor: "#fff2",
+        backgroundColor: "#fff",
         color: "#fff",
         alignItems: "center",
-        justifyContent: "center"
+        justifyContent: "center",
     }
 });

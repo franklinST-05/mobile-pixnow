@@ -18,9 +18,15 @@ export function HomeHeader() {
                     <Text style={styles.title}>PIXNOW</Text>
                     <Text style={styles.description}>Olá, Franklin</Text>
                 </View>
-                <RoundedButton>
-                    <Feather name="settings" size={22} color="#fff"/>
-                </RoundedButton>
+                
+                <View style={styles.action}>
+                    <RoundedButton backgroundColor="#fff3">
+                        <Feather name="plus" size={22} color="#fff" />
+                    </RoundedButton>
+                    <RoundedButton backgroundColor="#fff3">
+                        <Feather name="settings" size={22} color="#fff" />
+                    </RoundedButton>
+                </View>
             </View>
 
         </SafeHeader>

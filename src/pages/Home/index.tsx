@@ -1,4 +1,4 @@
-import { ScrollView, View } from "react-native";
+import { ScrollView, TouchableOpacity, View } from "react-native";
 import { HomeHeader } from "./partials/HomeHeader";
 import { CardFinanceEntity } from "../../components/CardFinanceEntity";
 import { styles } from "./styles";
@@ -8,48 +8,48 @@ export function Home() {
         <View style={styles.page}>
             <HomeHeader />
             <ScrollView style={styles.scrollFinanceEntity}>
-                <CardFinanceEntity 
+                <CardFinanceEntity
                     financeKey="teste@gmail.com"
                     description="Chave do meu banco do..."
                 />
-                 <CardFinanceEntity 
+                <CardFinanceEntity
                     financeKey="teste@gmail.com"
                     description="Chave do meu banco do..."
                 />
-                 <CardFinanceEntity 
+                <CardFinanceEntity
                     financeKey="teste@gmail.com"
                     description="Chave do meu banco do..."
                 />
-                 <CardFinanceEntity 
+                <CardFinanceEntity
                     financeKey="teste@gmail.com"
                     description="Chave do meu banco do..."
                 />
-                 <CardFinanceEntity 
+                <CardFinanceEntity
                     financeKey="teste@gmail.com"
                     description="Chave do meu banco do..."
                 />
-                 <CardFinanceEntity 
+                <CardFinanceEntity
                     financeKey="teste@gmail.com"
                     description="Chave do meu banco do..."
                 />
-                 <CardFinanceEntity 
+                <CardFinanceEntity
                     financeKey="teste@gmail.com"
                     description="Chave do meu banco do..."
                 />
 
-<CardFinanceEntity 
+                <CardFinanceEntity
                     financeKey="teste@gmail.com"
                     description="Chave do meu banco do..."
                 />
-                 <CardFinanceEntity 
+                <CardFinanceEntity
                     financeKey="teste@gmail.com"
                     description="Chave do meu banco do..."
                 />
-                 <CardFinanceEntity 
+                <CardFinanceEntity
                     financeKey="teste@gmail.com"
                     description="Chave do meu banco do..."
                 />
-                
+
             </ScrollView>
         </View>
     );
