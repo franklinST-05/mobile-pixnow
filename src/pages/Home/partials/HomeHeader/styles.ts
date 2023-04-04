@@ -2,12 +2,13 @@ import { StyleSheet } from "react-native";
 
 export const styles = StyleSheet.create({
     header: {
-        flex:1,
-        height: 100,
+        width: "100%",
+        height: 80,
         flexDirection: "row",
         alignItems: "center",
         justifyContent: "space-between",
         paddingHorizontal: 20,
+        
     },
     info: {
         flexDirection: "column",

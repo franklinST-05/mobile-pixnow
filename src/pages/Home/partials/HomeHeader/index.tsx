@@ -7,9 +7,9 @@ import Feather from "@expo/vector-icons/Feather";
 export function HomeHeader() {
     return (
         <SafeHeader
-            backgroundColor="#B56EED"
+            backgroundColor="#96f"
             status={{
-                backgroundColor: "#B56EED",
+                backgroundColor: "#96f",
                 style: "light",
             }}
         >
