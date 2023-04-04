@@ -1,4 +1,5 @@
-import { StyleSheet, TouchableOpacity, TouchableOpacityProps } from "react-native";
+import { TouchableOpacity, TouchableOpacityProps } from "react-native";
+import { styles } from "./styles";
 
 export function RoundedButton(props: TouchableOpacityProps) {
     return (
@@ -9,15 +10,3 @@ export function RoundedButton(props: TouchableOpacityProps) {
         />
     );
 }
-
-const styles = StyleSheet.create({
-    button: {
-        width: 55,
-        height: 55,
-        borderRadius: 55,
-        backgroundColor: "#fff2",
-        color: "#fff",
-        alignItems: "center",
-        justifyContent: "center"
-    }
-});
